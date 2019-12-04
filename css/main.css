@@ -1,0 +1,128 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-family: Roboto, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+.bord {
+  border-color: #000;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+}
+
+.form {
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #f2f2f2;
+}
+
+.box {
+  border-color: #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .name {
+    padding-right: 1rem;
+  }
+
+  .masthead-title {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .name {
+    padding-right: 1rem;
+  }
+
+}
+
+.section-dark {
+  background-color: #000308;
+  color: #fff;
+}
+
+.nav a:focus {
+  outline-color: #fff;
+}
+
+.section-light {
+  background-color: #fafafa;
+  color: #222;
+}
+
+.section-bg {
+  background-size: cover;
+}
+
+.btn:not(.btn-ghost) {
+  background-color: #8d483b;
+  border-color: #8d483b;
+}
+
+.btn:not(.btn-ghost):hover {
+  background-color: #e88681;
+}
+
+.btn-ghost:hover {
+  background-color: rgba(180, 220, 255, .5);
+}
+
+.masthead {
+  background-image: url("../images/galaxy-evolution-explorer.jpg");
+}
+
+.masthead-title {
+  position: relative;
+  z-index: 2;
+}
+
+.masthead-title::after {
+  content: attr(data-shadow);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+
+  transform: translate(.07em, .07em);
+
+  color: rgba(180, 220, 255, .6);
+}
+
+.masthead a {
+  border-bottom: .2em solid rgba(255, 255, 255, .6);
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.masthead a:hover {
+  background-color: rgba(180, 220, 255, .3);
+}
+
+.techniques {
+  background-image: url("../images/galaxies-in-hiding.jpg");
+}
+
+.satellites {
+  background-image: url("../images/invisible-galaxies.jpg");
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+}
