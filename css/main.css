@@ -84,10 +84,6 @@ h1 {
   background-color: #4574EB;
 }
 
-.masthead {
-  background-image: url("../images/galaxy-evolution-explorer.jpg");
-}
-
 .masthead-title {
   position: relative;
   z-index: 2;
@@ -116,13 +112,4 @@ h1 {
 
 .masthead a:hover {
   background-color: #4574EB;
-}
-
-.techniques {
-  background-image: url("../images/galaxies-in-hiding.jpg");
-}
-
-.satellites {
-  background-image: url("../images/invisible-galaxies.jpg");
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
 }
