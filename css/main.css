@@ -13,7 +13,7 @@ h1 {
 }
 
 .btn {
-  background-color: #D1D1D1;
+  background-color: #0001ff;
   color: #fff;
 }
 
@@ -54,7 +54,7 @@ h1 {
 }
 
 .section-dark {
-  background-color: #D1D1D1;
+  background-color: #d1d1d1;
   color: #000000;
 }
 
@@ -72,16 +72,15 @@ h1 {
 }
 
 .btn:not(.btn-ghost) {
-  background-color: #8d483b;
-  border-color: #8d483b;
+  background-color: #0001ff;
 }
 
 .btn:not(.btn-ghost):hover {
-  background-color: #e88681;
+  background-color: #0001ff;
 }
 
 .btn-ghost:hover {
-  background-color: #4574EB;
+  background-color: #4574eb;
 }
 
 .masthead-title {
@@ -100,7 +99,7 @@ h1 {
 
   transform: translate(.07em, .07em);
 
-  color: #ABD2EB;
+  color: #4574eb;
 }
 
 .masthead a {
@@ -111,5 +110,9 @@ h1 {
 }
 
 .masthead a:hover {
-  background-color: #4574EB;
+  background-color: #4574eb;
+}
+
+#banner {
+  height: 10em;
 }
